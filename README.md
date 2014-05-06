@@ -1,7 +1,14 @@
 spa-seo
 =======
 
-Allows google, bing, yahoo etc. to properly index your javascript single page web app in 30 seconds of less
+Allows google, bing, yahoo etc. to properly index your javascript single page web app in 30 seconds of less using  [nodeJS](http://http://nodejs.org/)  wrapper for [prerender.io](https://github.com/prerender/prerender) and [phantomJS](http://phantomjs.org/) 
+
+See:
+
+[AngularJS SEO in 30 seconds or Less](http://mofodv.com/angularjs-seo-in-30-seconds-or-less/) for a short description of how to use.
+OR
+[Perfect SEO for Javascript Single Page Applications ](http://mofodv.com/perfect-seo-for-javascript-single-page spplications) for a longer article which explains why you need it, what it does, and explores some advanced use cases.
+
 
 
 Author
