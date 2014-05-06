@@ -1,0 +1,19 @@
+{
+    "workers"         : 1,
+    "iterations"      : 200,
+
+    "phantomBasePort" : 12300,
+    "port"            : 3030,
+
+    "plugins"         : [
+        "removeScriptTags",
+        "httpHeaders"
+    ],
+
+    "phantomArguments": [
+        "--load-images=false",
+        "--ignore-ssl-errors=true",
+        "--ssl-protocol=tlsv1"
+    ]
+
+}

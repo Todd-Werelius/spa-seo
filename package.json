@@ -1,0 +1,40 @@
+{
+  "name": "spa-seo",
+  "version": "0.0.1",
+  "description": "A better node server wrapper for prerender.io",
+  "author": "Todd Werelius <todd.werelius@mofodv.com> (http://mofodv.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Todd-Werelius/spa-seo"
+  },
+  "keywords": [
+    "prerender.io",
+    "prerender",
+    "angular",
+    "angularjs",
+    "SEO",
+    "SPA",
+    "single page application",
+    "phantom",
+    "phantomjs",
+    "node",
+    "snapshot",
+    "middleware",
+    "express",
+    "connect"
+  ],
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "commander": "^2.2.0",
+    "prerender": "^3.3.4",
+    "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "sinon": "~1.7.3"
+  }
+}
