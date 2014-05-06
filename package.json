@@ -4,9 +4,11 @@
   "description": "A better node server wrapper for prerender.io",
   "author": "Todd Werelius <todd.werelius@mofodv.com> (http://mofodv.com/)",
   "license": "MIT",
+  "homepage": "https://github.com/Todd-Werelius/spa-seo.git",
+  "bugs": "https://github.com/Todd-Werelius/spa-seo.git",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Todd-Werelius/spa-seo"
+    "url": "https://github.com/Todd-Werelius/spa-seo.git"
   },
   "keywords": [
     "prerender.io",
