@@ -6,7 +6,9 @@ Allows google, bing, yahoo etc. to properly index your javascript single page we
 See:
 
 [AngularJS SEO in 30 seconds or Less](http://mofodv.com/angularjs-seo-in-30-seconds-or-less/) for a short description of how to use.
+
 OR
+
 [Perfect SEO for Javascript Single Page Applications ](http://mofodv.com/perfect-seo-for-javascript-single-page spplications) for a longer article which explains why you need it, what it does, and explores some advanced use cases.
 
 
