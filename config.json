@@ -13,14 +13,14 @@
         ]
     },
 
-    "env" : {
-        "PAGE_DONE_CHECK_TIMEOUT"           : 50,
-        "RESOURCE_DOWNLOAD_TIMEOUT"         : 10000,
-        "WAIT_AFTER_LAST_REQUEST"           : 500,
-        "JS_CHECK_TIMEOUT"                  : 50,
-        "JS_TIMEOUT"                        : 10000,
-        "EVALUATE_JAVASCRIPT_CHECK_TIMEOUT" : 50
-    },
+    "env" : [
+        { "PAGE_DONE_CHECK_TIMEOUT"           : { "set": false, "value" : 50    }},
+        { "RESOURCE_DOWNLOAD_TIMEOUT"         : { "set": false, "value" : 10000 }},
+        { "WAIT_AFTER_LAST_REQUEST"           : { "set": false, "value" : 500   }},
+        { "JS_CHECK_TIMEOUT"                  : { "set": false, "value" : 50    }},
+        { "JS_TIMEOUT"                        : { "set": false, "value" : 10000 }},
+        { "EVALUATE_JAVASCRIPT_CHECK_TIMEOUT" : { "set": false, "value" : 50    }}
+    ],
 
     "plugins" : [
         "removeScriptTags",

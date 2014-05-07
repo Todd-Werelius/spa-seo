@@ -17,8 +17,10 @@ var plugins   = {     // Available Plugins
 };
 
 // Override prerender prodess.env variables if present
-Object.keys(cfg.env).forEach(function(key){
-    process.env[key] = cfg.env[key];
+cfg.env.forEach(function(item){
+    if ( item.set ) {
+        process.env[item.key] = item.value;
+    }
 });
 
 // Initialize the prerender phantomJS service using our options
@@ -32,7 +34,7 @@ Object.keys(cfg.plugins).forEach(function(key) {
             plugins[key];
         }
     } else {
-        console.log("Prerender plugin "+key+" was requested but is not recognized");
+        console.log("Prerender plugin " + key + " was requested but is not recognized");
     }
 });
 
