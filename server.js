@@ -23,13 +23,13 @@ Object.keys(cfg.env).forEach(function(key){
 
 // Initialize the prerender phantomJS service using our options
 // gathered from the cfg module
-var server = prerender(cfg.options());
+var server = prerender(cfg.options);
 
 // Turn on sny requested and available plugins
 Object.keys(cfg.plugins).forEach(function(key) {
     if (key in plugins) {
         if (cfg.plugins[key]) {
-            plugins[key]();
+            plugins[key];
         }
     } else {
         console.log("Prerender plugin "+key+" was requested but is not recognized");
