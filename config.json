@@ -1,19 +1,29 @@
 {
-    "workers"         : 1,
-    "iterations"      : 200,
+    "options" : {
 
-    "phantomBasePort" : 12300,
-    "port"            : 3030,
+        "workers": 1,
+        "iterations": 200,
+        "phantomBasePort": 12300,
+        "port": 3030,
 
-    "plugins"         : [
+        "phantomArguments": [
+            "--load-images=false",
+            "--ignore-ssl-errors=true",
+            "--ssl-protocol=tlsv1"
+        ]
+    },
+
+    "env" : {
+        "PAGE_DONE_CHECK_TIMEOUT"           : 50,
+        "RESOURCE_DOWNLOAD_TIMEOUT"         : 10000,
+        "WAIT_AFTER_LAST_REQUEST"           : 500,
+        "JS_CHECK_TIMEOUT"                  : 50,
+        "JS_TIMEOUT"                        : 10000,
+        "EVALUATE_JAVASCRIPT_CHECK_TIMEOUT" : 50
+    },
+
+    "plugins" : [
         "removeScriptTags",
         "httpHeaders"
-    ],
-
-    "phantomArguments": [
-        "--load-images=false",
-        "--ignore-ssl-errors=true",
-        "--ssl-protocol=tlsv1"
     ]
-
 }
