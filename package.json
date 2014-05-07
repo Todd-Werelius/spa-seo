@@ -26,7 +26,7 @@
     "express",
     "connect"
   ],
-  "main": "server.js",
+  "main": "render.js",
   "scripts": {
     "test": "mocha"
   },
