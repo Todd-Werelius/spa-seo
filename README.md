@@ -1,7 +1,7 @@
 spa-seo
 =======
 
-Allows google, bing, yahoo etc. to properly index your javascript single page web app in 30 seconds of less using a [nodeJS](http://http://nodejs.org/) server wrapper for [prerender.io](https://github.com/prerender/prerender) and [phantomJS](http://phantomjs.org/) 
+Allows google, bing, yahoo etc. to properly index your javascript single page web app in 30 seconds or less using a [nodeJS](http://http://nodejs.org/) server wrapper for a local [prerender.io](https://github.com/prerender/prerender) server which uses [phantomJS](http://phantomjs.org/) to render your pages
 
 See:
 
