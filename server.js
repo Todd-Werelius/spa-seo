@@ -2,7 +2,6 @@
 
 // This will load a default config, then merge in config json file, and finally use any command line
 // configuration options
-var process   = require('process');
 var cfg       = require('./lib/config' )( process.argv );
 var prerender = require('prerender');
 
