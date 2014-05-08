@@ -1,7 +1,7 @@
 {
     "options" : {
 
-        "workers": 4,
+        "workers": 1,
         "iterations": 200,
         "phantomBasePort": 12300,
         "port": 3030,
