@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 
-var helper       = require('./lib/config')              // Helper functions to setup prerender
-var cfg          = helper.getConfig();                  // Created a cfg object from defaults, .json cfg, or command line flags
-var renderServer = helper.getPrerenderServer( cfg );    // Returns a ready to run rendering server
+// Configure and run the rendering server, use node render --help to view command line options, or
+// change the cfg.json file
+var prerenderServer = require('./lib/config').getPrerenderServer();
 
-renderServer.start();
+prerenderServer.start();
+
 
 
 

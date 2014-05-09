@@ -1,7 +1,7 @@
 {
   "name": "spa-seo",
   "version": "0.0.1",
-  "description": "A better node server wrapper for prerender.io",
+  "description": "A commnad line configurable wrapper for the prerender.io service",
   "author": "Todd Werelius <todd.werelius@mofodv.com> (http://mofodv.com/)",
   "license": "MIT",
   "homepage": "https://github.com/Todd-Werelius/spa-seo.git",
@@ -28,7 +28,8 @@
   ],
   "main": "render.js",
   "scripts": {
-    "test": "mocha"
+    "test" : "mocha",
+    "start": "node render"
   },
   "dependencies": {
     "commander": "^2.2.0",
