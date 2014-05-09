@@ -18,7 +18,7 @@ OR
 Author
 --------------------
 
-Todd Werelius - <todd.werelius@gmail.com>
+Todd Werelius - <todd.werelius@mofodv.com>
 
 <a href="http://www.linkedin.com/in/toddwerelius/">
   <img alt="Follow me on LinkedIn"
