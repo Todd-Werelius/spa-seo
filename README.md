@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/todd-werelius/spa-seo.png?label=ready&title=Ready)](https://waffle.io/todd-werelius/spa-seo)
 spa-seo
 =======
 
