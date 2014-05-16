@@ -1,3 +1,4 @@
+[![Code Climate](https://codeclimate.com/github/Todd-Werelius/spa-seo.png)](https://codeclimate.com/github/Todd-Werelius/spa-seo)
 [![Stories in Ready](https://badge.waffle.io/todd-werelius/spa-seo.png?label=ready&title=Ready)](https://waffle.io/todd-werelius/spa-seo)
 spa-seo
 =======
